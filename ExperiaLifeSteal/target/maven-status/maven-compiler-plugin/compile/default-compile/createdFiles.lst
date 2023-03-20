@@ -1,0 +1,6 @@
+me/vivimage25/experialifesteal/ExperiaLifeSteal.class
+me/vivimage25/experialifesteal/commands/LifeModCommand.class
+me/vivimage25/experialifesteal/items/LifePieceItem.class
+me/vivimage25/experialifesteal/listeners/PlayerListeners.class
+me/vivimage25/experialifesteal/commands/LifeSeeCommand.class
+me/vivimage25/experialifesteal/commands/LifePieceCommand.class

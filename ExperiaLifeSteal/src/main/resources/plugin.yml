@@ -1,0 +1,42 @@
+name: ExperiaLifeSteal
+version: '${project.version}'
+main: me.vivimage25.experialifesteal.ExperiaLifeSteal
+api-version: 1.19
+commands:
+  lifepiece:
+    description: Remove a life piece and give item.
+    permission: experia.lifesteal.command.lifepiece
+    usage: /<command>
+  lifesee:
+    description: See amount of life you have
+    permission: experia.lifesteal.command.lifesee
+    usage: /<command>
+  lifemod:
+    description: Modify life of a player
+    permission: experia.lifesteal.command.lifemod
+    usage: /<command> [SUBCMD] [PLAYER] [AMOUNT]
+permissions:
+  experia.lifesteal.command.lifepiece:
+    description: Allows use of the lifepiece command.
+    default: true
+  experia.lifesteal.command.lifesee:
+    description: Allows use of the lifesee command.
+    default: true
+  experia.lifesteal.command.lifesee.others:
+    description: Allows use of the lifesee command for other players.
+    default: op
+  experia.lifesteal.command.lifemod:
+    description: Allows use of the lifemod command.
+    default: op
+  experia.lifesteal.command.lifemod.set:
+    description: Allows use of the lifemod set command.
+    default: op
+  experia.lifesteal.command.lifemod.add:
+    description: Allows use of the lifemod add command.
+    default: op
+  experia.lifesteal.command.lifemod.remove:
+    description: Allows use of the lifemod remove command.
+    default: op
+  experia.lifesteal.command.lifemod.see:
+    description: Allows use of the lifemod see command.
+    default: op
