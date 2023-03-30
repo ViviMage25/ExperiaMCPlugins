@@ -20,6 +20,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 public class PlayerListeners implements Listener {
     public static double regain_modifier = 0.50;
     public static double max_limit_amount = 60.0;
+    public static boolean ban_on_last_life = false;
 
     @EventHandler
     public void onEntityDamageByEntity(EntityDamageByEntityEvent event) {
@@ -46,7 +47,12 @@ public class PlayerListeners implements Listener {
                 attrib.setBaseValue(next);
                 world.dropItemNaturally(location, lifePieceItem);
                 if(next == 0.0) {
-                    player.setGameMode(GameMode.SPECTATOR);
+                    if(ban_on_last_life) {
+                        player.banPlayer("You lost your last life. You have been banned!");
+                    } else {
+                        player.setGameMode(GameMode.SPECTATOR);
+                        player.sendMessage("You lost your last life. You have been placed in spectator mode!");
+                    }
                 }
             }
         }

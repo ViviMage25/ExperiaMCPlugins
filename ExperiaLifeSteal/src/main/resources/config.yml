@@ -1,2 +1,3 @@
 max_limit: 60.0
 regain_mod: 0.50
+ban_on_last: false

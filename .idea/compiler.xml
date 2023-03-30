@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ExperiaPersonalVaults" />
         <module name="ExperiaLifeSteal" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ExperiaLifeSteal" target="17" />
+      <module name="ExperiaPersonalVaults" target="1.8" />
       <module name="TestProject" target="1.8" />
     </bytecodeTargetLevel>
   </component>

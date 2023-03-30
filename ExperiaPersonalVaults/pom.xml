@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.vivimage25</groupId>
-    <artifactId>ExperiaLifeSteal</artifactId>
-    <version>1.0</version>
+    <artifactId>ExperiaPersonalVaults</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>ExperiaLifeSteal</name>
+    <name>ExperiaPersonalVaults</name>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

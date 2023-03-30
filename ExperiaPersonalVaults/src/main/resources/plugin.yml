@@ -1,0 +1,4 @@
+name: ExperiaPersonalVaults
+version: '${project.version}'
+main: me.vivimage25.experiapersonalvaults.ExperiaPersonalVaults
+api-version: 1.19

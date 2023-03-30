@@ -24,6 +24,7 @@ public final class ExperiaLifeSteal extends JavaPlugin {
         saveDefaultConfig();
         PlayerListeners.max_limit_amount = getConfig().getDouble("max_limit");
         PlayerListeners.regain_modifier = getConfig().getDouble("regain_mod");
+        PlayerListeners.ban_on_last_life = getConfig().getBoolean("ban_on_last");
 
         getLogger().info("Registering Events");
         getServer().getPluginManager().registerEvents(new PlayerListeners(), this);
