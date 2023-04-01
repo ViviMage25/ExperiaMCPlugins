@@ -1,4 +1,35 @@
 name: ExperiaPersonalVaults
 version: '${project.version}'
-main: me.vivimage25.experiapersonalvaults.ExperiaPersonalVaults
+main: me.vivimage25.experiapersonalvaults.EPVPlugin
 api-version: 1.19
+commands:
+  epv:
+    description: Open's Personal Vault Inventory
+    usage: /<command> [playername]
+    aliases: [pv]
+    permission: epv.command.epv
+permissions:
+  epv.command.epv:
+    description: Allows /epv command usage
+    default: true
+  epv.command.epv.other:
+    description: Allows /epv command usage for other players
+    default: op
+  epv.vault.rows.1:
+    description: Allows player to have 1 row in vault
+    default: false
+  epv.vault.rows.2:
+    description: Allows player to have 2 rows in vault
+    default: false
+  epv.vault.rows.3:
+    description: Allows player to have 3 rows in vault
+    default: false
+  epv.vault.rows.4:
+    description: Allows player to have 4 rows in vault
+    default: false
+  epv.vault.rows.5:
+    description: Allows player to have 5 rows in vault
+    default: false
+  epv.vault.rows.6:
+    description: Allows player to have 6 rows in vault
+    default: false

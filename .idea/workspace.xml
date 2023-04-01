@@ -5,26 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd1c77e-7de3-4e7b-b70b-e3599a7eeffd" name="Changes" comment="First Commit!&#10;Version 1.0">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/ExperiaPersonalVaults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/inventories/PersonalVaultInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/DataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/MariaDBDataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/YamlDataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_waffle_waffle_jna_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_5_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/EPVPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/commands/EPVCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/inventories/InventoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/listeners/EPVListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/DataManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/EncodeItemStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExperiaLifeSteal/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaLifeSteal/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExperiaLifeSteal/ExperiaLifeSteal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaLifeSteal/ExperiaLifeSteal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExperiaLifeSteal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaLifeSteal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExperiaLifeSteal/src/main/java/me/vivimage25/experialifesteal/ExperiaLifeSteal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaLifeSteal/src/main/java/me/vivimage25/experialifesteal/ExperiaLifeSteal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExperiaLifeSteal/src/main/java/me/vivimage25/experialifesteal/listeners/PlayerListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaLifeSteal/src/main/java/me/vivimage25/experialifesteal/listeners/PlayerListeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExperiaLifeSteal/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaLifeSteal/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExperiaPersonalVaults/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/ExperiaPersonalVaults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/inventories/PersonalVaultInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/inventories/VaultInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/DataStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/MariaDBDataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/MariaDBDataStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/YamlDataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/YamlDataStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
     &quot;jdk.selected.com.intellij.ui.dsl.builder.impl.RowImpl.sdk&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/corey/Projects/Spigot/ViviPlugins&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/corey/Projects/Spigot/ExperiaMCPlugins/ExperiaPersonalVaults&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.19606414&quot;,
@@ -118,7 +120,7 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="ExperiaPersonalVaults package" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="ExperiaPersonalVaults build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -129,6 +131,7 @@
             </option>
             <option name="goals">
               <list>
+                <option value="clean" />
                 <option value="package" />
               </list>
             </option>
@@ -137,12 +140,16 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/ExperiaLifeSteal" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/ExperiaPersonalVaults" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Maven.ExperiaLifeSteal build" />
+      <item itemvalue="Maven.ExperiaPersonalVaults build" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -160,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679293951798</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Commit!&#10;Version 1.0">
+      <created>1680183683419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680183683419</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

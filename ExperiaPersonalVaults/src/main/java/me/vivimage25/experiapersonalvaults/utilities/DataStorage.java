@@ -5,7 +5,7 @@ import org.bukkit.inventory.ItemStack;
 
 public interface DataStorage {
 
-    void save(Player player, ItemStack[] items);
+    boolean save(Player player, ItemStack[] items);
     ItemStack[] load(Player player);
 
 }
