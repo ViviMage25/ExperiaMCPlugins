@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ExperiaLifeSteal/ExperiaLifeSteal.iml" filepath="$PROJECT_DIR$/ExperiaLifeSteal/ExperiaLifeSteal.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExperiaMCPlugins.iml" filepath="$PROJECT_DIR$/ExperiaMCPlugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExperiaPersonalVaults/ExperiaPersonalVaults.iml" filepath="$PROJECT_DIR$/ExperiaPersonalVaults/ExperiaPersonalVaults.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RPGStats/RPGStats.iml" filepath="$PROJECT_DIR$/RPGStats/RPGStats.iml" />
     </modules>
   </component>
 </project>

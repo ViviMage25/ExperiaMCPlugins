@@ -30,7 +30,7 @@ public class MariaDBDataStorage implements DataStorage {
         try {
             Class.forName("org.mariadb.jdbc.Driver");
             Connection dbConnection = DriverManager.getConnection(this.dbURL, this.dbUsername, this.dbPassword);
-            PreparedStatement dbPreparedStatement = dbConnection.prepareStatement("CREATE TABLE IF NOT EXISTS `".concat(this.dbTable).concat("` (uuid char(36) NOT NULL UNIQUE, name char(16) NOT NULL, items LONGTEXT NOT NULL, update BOOLEAN NOT NULL, PRIMARY KEY(uuid))"));
+            PreparedStatement dbPreparedStatement = dbConnection.prepareStatement("CREATE TABLE IF NOT EXISTS `".concat(this.dbTable).concat("` (uuid char(36) NOT NULL UNIQUE, name char(16) NOT NULL, items LONGTEXT NOT NULL, PRIMARY KEY(uuid))"));
             dbPreparedStatement.execute();
             dbPreparedStatement.close();
             dbConnection.close();
