@@ -16,15 +16,15 @@ public class RPGStatsDataManager {
 
     public static void addData(@NotNull RPGStatsData data) {
         Preconditions.checkNotNull(data, "Method: addData - must accept non null data. (Internal values may be 0)");
+        ENTITY_STATS_MAP.put(data.getEntity(), data);
         RPGStatsDataAddedEvent event = new RPGStatsDataAddedEvent(data.getEntity(), data);
         Bukkit.getPluginManager().callEvent(event);
-        if(!event.isCancelled()) ENTITY_STATS_MAP.put(data.getEntity(), data);
     }
     public static void removeData(@NotNull LivingEntity entity) {
         Preconditions.checkNotNull(entity, "Method: removeData - must accept non null entity.");
+        ENTITY_STATS_MAP.remove(entity);
         RPGStatsDataRemovedEvent event = new RPGStatsDataRemovedEvent(entity, getData(entity));
         Bukkit.getPluginManager().callEvent(event);
-        if(!event.isCancelled()) ENTITY_STATS_MAP.remove(entity);
     }
     public static RPGStatsData getData(@NotNull LivingEntity entity) {
         Preconditions.checkNotNull(entity, "Method: getData - must accept non null entity.");

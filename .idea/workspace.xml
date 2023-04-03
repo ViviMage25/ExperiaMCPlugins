@@ -4,35 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efd1c77e-7de3-4e7b-b70b-e3599a7eeffd" name="Changes" comment="Update Commit!&#10;Added (kinda buggy) v1.0 PersonalVaults Plugin">
-      <change afterPath="$PROJECT_DIR$/RPGStats/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/RPGStatsPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/config/RPGStatsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/RPGStatsData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/RPGStatsDataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/RPGStatsDataModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/storage/RPGStatsBinaryDataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/storage/RPGStatsDataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/storage/RPGStatsDataStorageManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/storage/RPGStatsPDCDataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/storage/RPGStatsSQLDataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/storage/RPGStatsYAMLDataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataAddedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataModifierAddedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataModifierRemovedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataRemovedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/listener/RPGStatsCustomListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/listener/RPGStatsEntityListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/listener/RPGStatsPlayerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/utility/RPGStatsUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGStats/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="efd1c77e-7de3-4e7b-b70b-e3599a7eeffd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/MariaDBDataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExperiaPersonalVaults/src/main/java/me/vivimage25/experiapersonalvaults/utilities/MariaDBDataStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/RPGStatsData.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/RPGStatsData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/RPGStatsDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/data/RPGStatsDataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataAddedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataAddedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataModifierAddedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataModifierAddedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataModifierRemovedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataModifierRemovedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataRemovedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/RPGStatsDataRemovedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/listener/RPGStatsCustomListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGStats/src/main/java/me/vivimage25/rpgstats/event/listener/RPGStatsCustomListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680390819773</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added (WIP) RPGStats Plugin&#10;Edited MariaDBDataStorage in ExperiaPersonalVaults">
+      <created>1680506719265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680506719265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +232,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit!&#10;Version 1.0" />
     <MESSAGE value="Update Commit!&#10;Added (kinda buggy) v1.0 PersonalVaults Plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Commit!&#10;Added (kinda buggy) v1.0 PersonalVaults Plugin" />
+    <MESSAGE value="Added (WIP) RPGStats Plugin&#10;Edited MariaDBDataStorage in ExperiaPersonalVaults" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added (WIP) RPGStats Plugin&#10;Edited MariaDBDataStorage in ExperiaPersonalVaults" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

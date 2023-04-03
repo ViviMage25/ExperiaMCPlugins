@@ -52,15 +52,15 @@ public class RPGStatsData {
 
     public void putModifier(@NotNull RPGStatsDataModifier modifier) {
         Preconditions.checkNotNull(modifier, "Method: putModifier - must accept non-null modifier. (Internal values may be 0)");
+        this.modifierMap.put(modifier.getName(), modifier);
         RPGStatsDataModifierAddedEvent event = new RPGStatsDataModifierAddedEvent(this.entity, this, modifier);
         Bukkit.getPluginManager().callEvent(event);
-        if(!event.isCancelled()) this.modifierMap.put(modifier.getName(), modifier);
     }
     public void removeModifier(@NotNull String name) {
         Preconditions.checkNotNull(name, "Method: removeModifier - must accept non-null name. (Empty strings are possible!)");
+        this.modifierMap.remove(name);
         RPGStatsDataModifierRemovedEvent event = new RPGStatsDataModifierRemovedEvent(this.entity, this, this.getModifier(name));
         Bukkit.getPluginManager().callEvent(event);
-        if(!event.isCancelled()) this.modifierMap.remove(name);
     }
     public RPGStatsDataModifier getModifier(@NotNull String name) {
         Preconditions.checkNotNull(name, "Method: removeModifier - must accept non-null name. (Empty strings are possible!)");
